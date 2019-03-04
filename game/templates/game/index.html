@@ -1,0 +1,20 @@
+{% extends 'game/base.html' %}
+
+
+{% block content %}
+
+<header>
+
+
+</header>
+<div class='gfont, bg, container-text'>
+  Ready, Set, Kind
+</div>
+
+<div>
+  {% for t in top_scores %}
+  {{t.username}} - {{t.saved_scores}}
+<br>
+{% endfor %}
+</div>
+{% endblock %}

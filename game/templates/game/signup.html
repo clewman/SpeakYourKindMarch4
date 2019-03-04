@@ -1,0 +1,40 @@
+
+
+
+  {% extends 'game/base.html' %}
+
+  {% block content %}
+  <!-- testing -->
+  <style>
+  body {
+    background-image: none;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    margin-top: 3%;
+  }
+  </style>
+    <h2>Sign up</h2>
+    <form method="post">
+  {% csrf_token %}
+  {% for field in form %}
+    <p>
+      {{ field.label_tag }}<br>
+      {{ field }}
+      {% if field.help_text %}
+        <small style="color: grey">{{ field.help_text }}</small>
+      {% endif %}
+      {% for error in field.errors %}
+        <p style="color: red">{{ error }}</p>
+      {% endfor %}
+    </p>
+  {% endfor %}
+  <button type="submit">Sign up</button>
+</form>
+
+
+  {% endblock %}

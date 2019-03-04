@@ -1,0 +1,180 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+
+<div  class='container'>
+  <h2>Ready, Set, Kind</h2>
+
+<table id='easy_game' style="width:100%" >
+  <tr>
+    <td>
+      <div id="square0" class="content"> Good Thing
+        <i class="fas fa-check"></i>
+      </div>
+    </td>
+
+    <td> <div id="square1" class="content ">TEST</div></td>
+    <td> <div id="square2" class="content ">Good Thing</div></td>
+
+
+  </tr><tr>
+    <td> <div id="square3" class="content">Good Thing</div></td>
+    <td> <div id="square4" class="content">Good Thing</div></td>
+    <td> <div id="square5" class="content">Good Thing</div></td>
+
+
+  </tr>
+  <tr>
+    <td> <div id="square6" class="content">Good Thing</div></td>
+    <td> <div id="square7" class="content">Good Thing</div></td>
+    <td> <div id="square8" class="content">Good Thing</div></td>
+  </tr>
+
+</table>
+<br>
+</div>
+<div id="current_score"></div>
+
+
+
+
+{% endblock %}
+
+{% block js %}
+<script>
+  let points = 0;
+
+
+let tiles = []
+get_tiles()
+function get_tiles(){
+  $.ajax({
+    'url': "{% url 'game:get_tiles' game.pk %}",
+    'type': 'post',
+    success: function(response) {
+    if (response.status === 'success'){
+    points=response.points
+      for (let i =0 ; i< response.tiles.length; i++){
+      tiles.push(response.tiles[i])
+      }
+
+      for (t in tiles) {
+
+    document.getElementById("square" + t).innerHTML = shuffle(tiles[t].title);
+    document.getElementById("square" + t).setAttribute('data-pk', tiles[t].pk);
+    if(response.tiles[t].finished === true){
+      document.getElementById("square" + t).style.backgroundImage = 'linear-gradient(45deg, lime, lime, lime)'
+        document.getElementById("square" + t).style.color = 'white';
+        document.getElementById("square" + t).innerHTML = '<i class="fas fa-check"></i>'
+    }
+
+
+}
+    }
+    }
+  })
+}
+//not sure i need this anymore
+let easyIndex = Math.floor(Math.random() * 32);
+
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+  while (0 !== currentIndex) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
+}
+
+function loginButton() {
+  document.querySelector('flex-container').style.display = 'block';
+
+}
+
+
+function newGameButton() {
+  document.querySelector('table').style.display = 'table';
+  //tiles = shuffle(tiles);
+  //for (let textContent = 0; textContent < 9; textContent++){
+  //  document.getElementById("square" + textContent).innerHTML = shuffle(tiles[textContent].title);
+  //}
+
+  var btn = document.createElement("button");
+  var t = document.createTextNode("Save Game");
+  btn.appendChild(t);
+  document.querySelector('.flex-container').appendChild(btn);
+}
+
+// function saveGameButton() {
+// }
+
+
+for (let square_index = 0; square_index < 9; square_index++){
+  let square = document.querySelector('#square'+square_index)
+  square.onclick = function (e) {
+  let pk = square.getAttribute('data-pk');
+  $.ajax({
+    'url': "{% url 'game:set_finished' %}",
+    'type':'POST',
+    'data':{
+      'pk':pk
+      },
+    success:function(response) {
+       if(response.status === 'success') {
+        square.onclick = null
+        square.style.backgroundImage = 'linear-gradient(45deg, lime, lime, lime)'
+        square.style.color = 'white';
+        square.innerHTML = '<i class="fas fa-check"></i>'
+        points += 10;
+        document.getElementById('current_score').style.display = 'block';
+        document.getElementById('current_score').innerHTML = 'Current Score: ' + points
+        // alert("You earned " + points + ' points!');
+        // rowComplete();
+        console.log(response)
+        console.log(points)
+       }  else if (response.status === 'game_finished') {
+        square.onclick = null
+        square.style.backgroundImage = 'linear-gradient(45deg, lime, lime, lime)'
+        square.style.color = 'white';
+        square.innerHTML = '<i class="fas fa-check"></i>'
+        points =90;
+        document.getElementById('current_score').style.display = 'block';
+        document.getElementById('current_score').innerHTML = 'Current Score: ' + points
+
+       }
+
+    }
+
+  })
+
+  }
+}
+// function currentScore() {
+//   document.getElementById('current_score').innerHTML = 'Current Score: ' + points
+// }
+
+function totalScore() {
+
+}
+
+// this needs to be per row, not just by points
+function rowComplete() {
+  //if (points >= 30) {
+  //  alert('You\'ve completed a row')
+  //}
+}
+
+</script>
+
+<div class="flex-container">
+  <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+  <div><button type="submit">New Game</button></div></form>
+</div>
+
+</div>
+{% endblock %}

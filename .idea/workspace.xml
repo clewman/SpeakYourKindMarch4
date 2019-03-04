@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18c1e48-42e1-4341-9fd6-183556f637af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/migrations/0002_auto_20190223_0419.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/migrations/0003_auto_20190223_0454.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/migrations/0004_winner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/migrations/0005_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/migrations/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/static/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/static/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/static/game/images/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/static/game/images/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/static/game/images/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/static/game/images/imgbkg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/static/game/images/imgbkg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/static/game/images/paint.png" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/static/game/images/paint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/templates/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/templates/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/game/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/game/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/syk" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/syk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/users/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/users/migrations/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/users/templates/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/users/templates/users/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../syk/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../syk/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0002_auto_20190223_0419.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0002_auto_20190227_1405.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0003_auto_20190223_0454.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0003_auto_20190227_1418.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0004_auto_20190227_1607.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0004_winner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0005_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/0006_merge_20190228_0339.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/migrations/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/static/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/static/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/static/game/images/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/templates/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/templates/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syk" beforeDir="false" afterPath="$PROJECT_DIR$/syk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syk/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/syk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/__init__(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/index(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/register(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/.image-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/.image-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/__pycache__/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/0002_auto_20190227_1405.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/0003_auto_20190227_1418.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/0004_auto_20190227_1607.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/0006_merge_20190228_0339.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/migrations/__pycache__/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/.image-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/gameSP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/images/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/images/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/images/imgbkg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/images/paint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/static/game/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/.image-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/templates/game/testing_place.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/game/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/__pycache__/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/migrations/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/migrations/__pycache__/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/templates/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/templates/users/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/templates/users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/templates/users/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sykMarch1Indu/users/views.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/templates/game/game_play.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/game/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/templates/game/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alert</find>
+      <find>score</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/game/templates/game/index.html" />
+        <option value="$PROJECT_DIR$/game/templates/game/game_play.html" />
+        <option value="$PROJECT_DIR$/game/views.py" />
+        <option value="$PROJECT_DIR$/game/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/game/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/templates/game/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/templates/game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/templates/game/game_play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

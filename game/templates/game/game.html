@@ -1,0 +1,17 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+
+<div>
+  <h2>Ready, Set, Kind</h2></div>
+
+
+<div class="flex-container">
+  <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+  <div><button type="submit">New Game</button></div></form>
+</div>
+
+
+
+{% endblock %}
