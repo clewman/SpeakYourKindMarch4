@@ -4,26 +4,19 @@
 
 <div  class='container'>
 
-  <h3>Ready, Set, Kind</h3>
+  <h2>Ready, Set, Kind</h2>
 
-<div>
-  <div class="flex-container3" id="player_score">
-
-    <div>Player</div>
-    <div style="text-align:right;">Score</div>
-
+  <div>
+    <p>Welcome to the game Ready, Set, Kind. Please click the button below to login and play.</p>
+    <p>More information here about the project, probably a link to Speak Your Kind, etc. Scratch the furniture put butt in owner's face or prance along on top of the garden fence, annoy the neighbor's dog and make it bark and stare at the wall, play with food and get confused by dust, stare at ceiling light. Sweet beast hey! you there, with the hands so curl into a furry donut so i hate cucumber pls dont throw it at me so attack dog, run away and pretend to be victim, annoy owner until he gives you food say meow repeatedly until belly rubs, feels good. Leave hair everywhere human is</p>
   </div>
 
-
-    <h5>{% for t in top_scores reversed %}
-      <div class='flex-container4'>
-      <div>  {{t.username}} </div>
-      <div style="text-align:right;"> {{t.saved_scores}}</div>
-      </div>
-    {% endfor %}
-    </h5>
-
-</div>
+  <div class='flex-container'>
+    <form action="{% url 'users:register' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+    <button type="submit"><h4>Login or Create Account Here<h4></button>
+    </form>
+  </div>
 
 </div>
 {% endblock %}
