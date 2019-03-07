@@ -7,9 +7,9 @@
 
   <div class="flex-container">
     <div>
-      <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+      <form action="{% url 'game:saved_game' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
-      <div><button type="submit"><h4>Current Game</h4></button></div></form>
+      <div><button type="submit"><h4>Current Games</h4></button></div></form>
     </div>
 
     <div>

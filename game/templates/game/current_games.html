@@ -1,0 +1,26 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+<h4 style="text-align: left;">Welcome, {{user.username}}</h4>
+<div class='container'>
+  <h2>Current Games</h2>
+
+{% for g in my_games %}
+
+     {% if not g.game_finished %}
+
+      <div id="cont_game">  <a href="{% url 'game:game_play' g.pk %}"> Game # {{g.pk}} </a> </div>
+
+    {% endif %}
+{% endfor %}
+<br>
+  <div class="flex-container">
+    <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+    <div><button type="submit"><h4>New Game</h4></button></div></form>
+  </div>
+
+</div>
+<br>
+<a href="{% url 'users:logout_user' %}">logout</a>
+{% endblock %}
