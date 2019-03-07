@@ -21,11 +21,29 @@ h3 {
   font-size: 1.5em;
 }
 
-h1, h2, h3, button, #current_score{
+h4 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, button, #current_score{
+  /* background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.001) 0%, #fff 5%, #fff 100%); */
+
   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet, red);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: rgba(255,255,255,0.001) ;
   text-align: center;
+  /* -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+  /* -o-background-clip: text;
+  -o-text-fill-color: transparent; */
+  /* -ms-background-clip: text;
+  -ms-text-fill-color: transparent; */
+/* -moz- for firefox
+-o- for opera
+-ms-  for ie  */
+
 }
 
 #current_score {
@@ -82,18 +100,24 @@ margin-left: 5px;
 button:focus {outline:0;}
 
 button {
-  /* border: 1px solid black; */
-  /* border-radius: 25px; */
   padding: 12px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  border: 3px solid transparent;
+  border: 3px solid;
+  /* border: 3px solid transparent; */
   border-image: linear-gradient(-90deg, orange , yellow, green, cyan, blue, violet);
   border-image-slice: 1;
+
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet, red);
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: rgba(255,255,255,0.001) ;
+  text-align: center;
 }
+
 
 
 /***********************************************************/
