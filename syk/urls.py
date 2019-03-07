@@ -18,8 +18,8 @@ from django.urls import path, include
 from game.views import json_test
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('game.urls')),
     path('json_test', json_test,name='json_test'),
     path('users/', include('users.urls')),
+    path('', include('game.urls')),
 
 ]
