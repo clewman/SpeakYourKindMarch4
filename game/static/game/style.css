@@ -170,6 +170,26 @@ button {
 }
 
 /***********************************************************/
+/* links */
+#cont_game {
+  margin: 4%;
+  font-size: 1.25em;
+}
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: lime;
+}
+
+a:active {
+  color: lime;
+}
 /***********************************************************/
 /* for the single player game */
 table {
