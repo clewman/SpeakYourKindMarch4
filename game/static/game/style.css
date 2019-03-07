@@ -1,3 +1,6 @@
+/* div {
+  border: 1px red solid;
+} */
 body {
  background-position: center;
  background-repeat: repeat;
@@ -28,7 +31,7 @@ h4 {
 }
 
 h5 {
-  font-size: .75em;
+  font-size: 1em;
   margin: 2%;
   padding: 1%;
   font-weight: 600;
@@ -59,8 +62,11 @@ h1, h2, h3, h4, button, #current_score{
 /***********************************************************/
 /* form */
 input {
-margin-left: 5px;
+margin: 10%;
+background-color: white;
+border: 1px solid grey;
 }
+
 /***********************************************************/
 /* box */
 .box {
@@ -100,7 +106,6 @@ margin-left: 5px;
 
 .flex-container3 {
   display: flex;
-  /* background-color: DodgerBlue; */
 }
 
 .flex-container3 > div {
@@ -116,15 +121,28 @@ margin-left: 5px;
   margin-top: 3%;
 }
 
+.flex-container-users {
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container-users > div {
+  width: 100px;
+  margin-top: 0;
+  text-align: right;
+}
 
 button:focus {outline:0;}
 
 button {
+  height: 60px;
+  width: 180px;
   padding: 12px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   border: 3px solid;
   /* border: 3px solid transparent; */
@@ -143,6 +161,12 @@ button {
   font-size: 1em;
   font-weight: 600;
   border: 0px solid black;
+  color: lime;
+  text-align: center;
+}
+
+.score_box {
+  border: 1px solid black;
 }
 
 /***********************************************************/

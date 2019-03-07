@@ -1,17 +1,24 @@
 {% extends 'game/base.html' %}
 
 {% block content %}
+<h4 style="text-align: left;">Welcome, {{user.username}}</h4>
+<div class='container'>
+  <h2>Ready, Set, Kind</h2>
 
-<div>
-  <h2>Ready, Set, Kind</h2></div>
+  <div class="flex-container">
+    <div>
+      <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+      <div><button type="submit"><h4>Current Game</h4></button></div></form>
+    </div>
 
+    <div>
+      <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+      <div><button type="submit"><h4>New Game</h4></button></div></form>
+    </div>
+  </div>
 
-<div class="flex-container">
-  <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-  <div><button type="submit"><h4>New Game</h4></button></div></form>
 </div>
-
-
 
 {% endblock %}

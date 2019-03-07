@@ -68,7 +68,7 @@ def set_finished(request):
 
             tile.game.score+=10
             tile.game.save()
-            if tile.game.score >= 90:
+            if tile.game.score == 90:
                 tile.game.game_finished = True
                 tile.game.save()
                 request.user.saved_scores += tile.game.score

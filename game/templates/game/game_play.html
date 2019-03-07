@@ -1,7 +1,7 @@
 {% extends 'game/base.html' %}
 
 {% block content %}
-
+<h4 style="text-align: left;">Welcome, {{user.username}}</h4>
 <div  class='container'>
 
   <h2>Ready, Set, Kind</h2>
@@ -160,16 +160,25 @@ function rowComplete() {
 </script>
 
   <div class="flex-container">
-    <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
-      {% csrf_token %}
-    <div><button type="submit"><h4>New Game</h4></button></div></form>
+    <div>
+      <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+      <div><button type="submit"><h4>New Game</h4></button></div></form>
+    </div>
+
+    <div>
+      <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+      <div><button type="submit"><h4>Save Game</h4></button></div></form>
+    </div>
   </div>
 
   <div class="flex-container">
     <form action="{% url 'game:player_score' %}" method="post" enctype="multipart/form-data">
       {% csrf_token %}
-    <div><br><br><input type="submit" value="click to see all player's Game Scores" class='scores_btn'></input></div></form>
+    <div><br><br><input type="submit" value="see all player's scores" class='scores_btn'></input></div></form>
   </div>
 
 </div>
+<a href="{% url 'users:logout_user' %}">logout</a>
 {% endblock %}
