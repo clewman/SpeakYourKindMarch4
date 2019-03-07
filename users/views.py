@@ -20,8 +20,6 @@ def register_user(request):
     login(request, user)
     return HttpResponseRedirect(reverse('game:game'))
 
-    # return HttpResponseRedirect(reverse('users:index'))
-
 
 def login_user(request):
     username = request.POST['username']
