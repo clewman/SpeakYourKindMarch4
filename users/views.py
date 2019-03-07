@@ -18,7 +18,9 @@ def register_user(request):
     password = request.POST['password']
     user = User.objects.create_user(username, email, password)
     login(request, user)
-    return HttpResponseRedirect(reverse('users:index'))
+    return HttpResponseRedirect(reverse('game:game'))
+
+    # return HttpResponseRedirect(reverse('users:index'))
 
 
 def login_user(request):
