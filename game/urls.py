@@ -7,7 +7,9 @@ from . import views
 app_name = 'game'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('scores', views.player_score, name='player_score'),
+    path('scores/', views.player_score, name='player_score'),
+
+    path('saved_game/', views.saved_game, name='saved_game'),
 
     path('game/', views.new_game, name='game'),
     path('game_play/<int:pk>/', views.game_play, name='game_play'),

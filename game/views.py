@@ -22,6 +22,11 @@ def new_game(request):
         return HttpResponseRedirect(reverse('game:game_play',kwargs={'pk':game.pk}))
     return render(request, 'game/game.html')
 
+def saved_game(request):
+    my_games = request.user.games.all()
+
+    return render(request, 'game/current_games.html', {'my_games': my_games})
+
 def game_play(request,pk):
     game=get_object_or_404(Game,pk=pk)
     return render(request,'game/game_play.html',{'game':game})
