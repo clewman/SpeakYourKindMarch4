@@ -1,20 +1,29 @@
 {% extends 'game/base.html' %}
 
-
 {% block content %}
 
-<header>
+<div  class='container'>
 
-
-</header>
-<div class='gfont, bg, container-text'>
-  Ready, Set, Kind
-</div>
+  <h3>Ready, Set, Kind</h3>
 
 <div>
-  {% for t in top_scores %}
-  {{t.username}} - {{t.saved_scores}}
-<br>
-{% endfor %}
+  <div class="flex-container3" id="player_score">
+
+    <div>Player</div>
+    <div style="text-align:right;">Score</div>
+
+  </div>
+
+
+    <h5>{% for t in top_scores reversed %}
+      <div class='flex-container4'>
+      <div>  {{t.username}} </div>
+      <div style="text-align:right;"> {{t.saved_scores}}</div>
+      </div>
+    {% endfor %}
+    </h5>
+
+</div>
+
 </div>
 {% endblock %}
