@@ -11,6 +11,10 @@ def index(request):
     return render(request, 'game/index.html', {'top_scores':top_scores})
 
 
+def player_score(request):
+    top_scores=Person.objects.all().order_by('saved_scores')
+    return render(request, 'game/scores.html', {'top_scores':top_scores})
+
 # @login_required
 def new_game(request):
     if request.method == 'POST':
