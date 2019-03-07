@@ -3,6 +3,7 @@
 {% block content %}
 
 <div  class='container'>
+
   <h2>Ready, Set, Kind</h2>
 
 <table id='easy_game' style="width:100%" >
@@ -16,12 +17,10 @@
     <td> <div id="square1" class="content "></div></td>
     <td> <div id="square2" class="content "> </div></td>
 
-
   </tr><tr>
     <td> <div id="square3" class="content"> </div></td>
     <td> <div id="square4" class="content"> </div></td>
     <td> <div id="square5" class="content"> </div></td>
-
 
   </tr>
   <tr>
@@ -34,9 +33,6 @@
 <br>
 </div>
 <div id="current_score"></div>
-
-
-
 
 {% endblock %}
 
@@ -67,7 +63,6 @@ function get_tiles(){
         document.getElementById("square" + t).style.color = 'white';
         document.getElementById("square" + t).innerHTML = '<i class="fas fa-check"></i>'
     }
-
 
 }
     }
@@ -108,9 +103,6 @@ function newGameButton() {
   btn.appendChild(t);
   document.querySelector('.flex-container').appendChild(btn);
 }
-
-// function saveGameButton() {
-// }
 
 
 for (let square_index = 0; square_index < 9; square_index++){
@@ -153,9 +145,6 @@ for (let square_index = 0; square_index < 9; square_index++){
 
   }
 }
-// function currentScore() {
-//   document.getElementById('current_score').innerHTML = 'Current Score: ' + points
-// }
 
 function totalScore() {
 
@@ -170,11 +159,17 @@ function rowComplete() {
 
 </script>
 
-<div class="flex-container">
-  <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-  <div><button type="submit"><h4>New Game</h4></button></div></form>
-</div>
+  <div class="flex-container">
+    <form action="{% url 'game:game' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+    <div><button type="submit"><h4>New Game</h4></button></div></form>
+  </div>
+
+  <div class="flex-container">
+    <form action="{% url 'game:player_score' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+    <div><br><br><input type="submit" value="click to see all player's Game Scores" class='scores_btn'></input></div></form>
+  </div>
 
 </div>
 {% endblock %}
