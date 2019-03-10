@@ -24,7 +24,8 @@ from syk.local_settings import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.readysetkind.org', 'www.readysetkind.org']
 
 # Application definition
 
